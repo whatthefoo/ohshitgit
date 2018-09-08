@@ -1,0 +1,20 @@
+{
+  "name": "ohshit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ohshit": "bin/ohshit.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.0",
+    "simple-git": "^1.96.0"
+  }
+}
