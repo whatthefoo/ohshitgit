@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-const git = require("../lib/git");
+const tasks = require("../lib/tasks");
+const clear = require("clear");
+const figlet = require("figlet");
 
 const project = require("../lib/project");
 const questions = require("../lib/questions");
@@ -14,9 +16,12 @@ if (!project.gitExist()) {
 }
 
 async function run() {
+  clear();
+  speak.normal(figlet.textSync("Oh Shit!"));
+
   try {
     const { command } = await questions.init();
-    git[command]();
+    tasks[command]();
   } catch (err) {}
 }
 
