@@ -6,7 +6,9 @@
   "bin": {
     "ohshit": "bin/ohshit.js"
   },
-  "scripts": {},
+  "scripts": {
+    "release": "np"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +18,8 @@
     "execa": "^1.0.0",
     "inquirer": "^6.2.0",
     "simple-git": "^1.96.0"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
   }
 }

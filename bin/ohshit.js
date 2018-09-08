@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const program = require("commander");
-const package = require("../package.json");
 const git = require("../lib/git");
 
 const project = require("../lib/project");
