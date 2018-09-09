@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "ohshit": "bin/ohshit.js"
+    "ohshit": "bin/ohshit.js",
+    "ohshitgit": "bin/ohshit.js"
   },
   "scripts": {
     "release": "np"
