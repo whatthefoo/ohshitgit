@@ -17,7 +17,7 @@ if (!project.gitExist()) {
 
 async function run() {
   clear();
-  speak.normal(figlet.textSync("Shit!"));
+  speak.normal(figlet.textSync("Oh Shit Git!"));
 
   try {
     const { command } = await questions.init();
