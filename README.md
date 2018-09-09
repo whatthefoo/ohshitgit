@@ -22,6 +22,8 @@ That's it! :tada:
 
 ## Inspired by
 
+[Katie Sylor-Miller's](https://twitter.com/ksylor) awesome webpage [Oh Shit Git!](https://ohshitgit.com/)
+
 ## Author
 
 Leif Riksheim ([@leifriksheim](https://github.com/leifriksheim)) - [WTFoo](https://github.com/whatthefoo)
