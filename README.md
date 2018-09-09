@@ -1,4 +1,4 @@
-![Oh shit!](medai/prompt.png)
+![Oh shit!](media/prompt.png)
 
 > A cli tool to help you unfuck your git mistake.
 
