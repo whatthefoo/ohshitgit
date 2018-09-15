@@ -4,7 +4,7 @@
 
 Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible.
 
-## Innstall
+## Install
 
 ```bash
 npm install -g ohshitgit
